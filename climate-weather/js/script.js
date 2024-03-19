@@ -1,4 +1,4 @@
-const API_KEY = "4e63b730d1e97486e34a23103d40cb66";
+  const API_KEY = "YOUR API KEY";
 
 function updateValues(data) {
   document.getElementById("cityText").textContent = `Climate in ${data.name}`;
