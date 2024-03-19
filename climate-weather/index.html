@@ -12,18 +12,18 @@
 </head>
 <body>
   <div class="container">
-    <input class="inputCity" type="text" placeholder="São Paulo">
-    <button class="searchButton">
-      <img class="searchImg" src="https://www.svgrepo.com/show/488200/find.svg" alt="search">
+    <input class="inputCity" id="inputCity" type="text" placeholder="São Paulo">
+    <button class="searchButton" onclick="searchOption()">
+      <img class="searchImg" id="searchImg" src="https://www.svgrepo.com/show/488200/find.svg" alt="search">
     </button>
     <div class="infoTemp">
-      <h2 class="cityText">Weather in São Paulo</h2>
-      <p class="temp">21°C</p>
+      <h2 class="cityText" id="cityText">Weather in São Paulo</h2>
+      <p class="temp" id="temp">21°C</p>
       <div class="valuesTemp">
         <img class="imgTemp" src="https://openweathermap.org/img/wn/04n.png" alt="">
-        <p class="weatherText">Cloudy</p>
+        <p class="weatherText" id="weatherText">Cloudy</p>
       </div>
-      <p class="humidity">Humidity: 76%</p>
+      <p class="humidity" id="humidity">Humidity: 76%</p>
     </div>
   </div>
 </body>

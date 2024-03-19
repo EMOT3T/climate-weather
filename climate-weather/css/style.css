@@ -74,6 +74,7 @@ body {
 .weatherText {
     color: white;
     margin-left: 10px;
+    text-transform: capitalize;
 }
 
 .humidity {
